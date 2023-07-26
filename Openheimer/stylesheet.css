@@ -1,0 +1,42 @@
+body{
+    background:black;
+}
+.container{
+    border:10px;
+    border-color:grey;
+}
+#title{
+    text-align:center;
+    color:grey;
+}
+#figcaption{
+ color:grey;
+}
+.photo{
+    margin:5px;
+    border: 10px solid grey;
+    width:100%;
+    height:100%;
+}
+#p{
+    text-align:center;
+    border:20px grey;
+    padding:30px;
+    margin:20px;
+    
+}
+.about{
+    text-align: center;
+}
+ul{
+    color: grey;
+    height:100%;
+    width:100%;
+    border-radius: 40px;
+    border-color: grey;
+    text-align:center;
+    
+}
+.figcaption{
+    text-align:center;
+}
