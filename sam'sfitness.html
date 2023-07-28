@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:wght@200&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css reset*/
+    body{
+        color:white;
+        margin:0px;
+        padding:0px;
+        background:url("photo/gym background.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:2500px;
+        height="auto";
+        width="100%";
+         }
+    .left{
+        border:2px grey;
+        display:inline-block;
+        position: absolute;
+        left: 14px;
+        top:20px;
+        position:absolute;
+         }
+         .left img{
+            width:80px;
+            filter:invert(100%);
+            border:5px red;
+         }
+    .mid{
+        position:absolute top;
+        display:block;
+        width:33%;
+         border:2px grey;
+         margin:10px auto;
+          }
+    .right{
+        position:absolute;
+        right: 36px;
+        top:20px;
+        display:inline-block;
+        border:2px grey ;
+        }
+     .navbar{
+        position:block;
+        margin:10px auto;
+        display: block;
+        border:2px grey ;
+        padding: 10px 10px;
+         }
+     .navbar li{
+        display:inline-block;
+        float:left;
+            color:black;
+            display:block;
+            font-size: 20x;
+             }
+     .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding: 10px 10px;
+              }
+     .navbar li a:hover,.navbar li a.active{
+            text-decoration: none;
+            color:grey;
+          }
+          .btn{
+            margin:0px 9px;
+            color:grey;
+            background-color:black;
+            padding:4px 15px;
+            border:2px solid grey;
+            border-radius:10px;
+        }
+        .btn:hover{
+            background-color: white;
+        }
+        .container{
+            border:2px white;
+            margin:100px 100px;
+            padding:75px ;
+            width:33%;
+            border-radius:10px;
+            font-size: 30px;
+        }
+        .form-group input{
+            border: 2px grey;
+            color:red;
+            background-color:black ;
+            text-align:center;
+            display:block;
+            width:300px;
+            padding:10px;
+            border:2px solid black;
+            margin:3px auto;
+            font-size: 20px;
+            border-radius:10px;
+        }
+        .form-group h4{
+            border:2px grey;
+            text-align: centre;
+        }
+        .form-group input:hover,.form-group input active{
+            background-color: white;
+        }
+        .container button{
+            display:block;
+            width: 80%;
+            margin:auto;
+            padding:3% 3%;
+            font-size: 20px;
+            
+        }
+          
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="photo/gymlogo.jpg"alt="">
+            <div><h12>Sam's fitness</h12></div></div>
+            <div
+         </div>
+        <div class="mid"> 
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h4>Join the best Gym in Bangalore</h4>
+         <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter your Location">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name=""placeholder="Enter your Contact Number">
+            </div>
+           <button class="btn">Submit</button>
+         </form>
+    </div>
+    
+</body>
+</html>
